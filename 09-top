@@ -176,4 +176,4 @@ For very large product types, it can be convenient to give the different "fields
 	}
 
 	kris :: Person
-	kris = APerson "Kris" False (alice, Nothing)
+	kris = APerson "Kris" False (Just alice, Nothing)
